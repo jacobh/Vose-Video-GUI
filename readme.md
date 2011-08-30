@@ -28,3 +28,8 @@ I have a bunch of scripts (python, bash, haxe) that I’ve been using to process
   * Open up a certain week (there will probably have an XML file for each week)
   * At a glance see progress on a certain week.  (A simple tick or some kind of colour will do)
   * Click on a step that hasn’t been done, and it will launch the relevant process
+
+## Mockup
+
+Main Menu:
+![](http://s.hzy.im/0687.png)
