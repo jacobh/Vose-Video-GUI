@@ -19,9 +19,11 @@ def renderExcerpt(sourceFile, outputFile, inPoint, outPoint):
 
 def exportFromProject():
     # This is complicated... will explain to you later
-    
+    pass
+
 def createProjectFileFromTemplate():
     # Create from a template.
     # If you're feeling adventerous, 
     #  - try and insert the clips into the project
-    #  - try and insert the clips onto the timeline, one after another
+    #  - try and insert the clips onto the timeline, one after another, onto "DEFAULT"
+    pass
