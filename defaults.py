@@ -7,3 +7,14 @@ Task_defaults = (
 	{'name': 'DVD', 'description': 'Author DVD'},
 	{'name': 'Burn', 'description': 'Burn DVD'}
 	)
+
+# Folder Defaults
+Folder_defaults = (
+	'originals',
+	'transcodes',
+	'exports',
+	'slides',
+	'slides/svg',
+	'slides/png',
+	'dvd'
+)
