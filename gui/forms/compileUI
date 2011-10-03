@@ -1,6 +1,10 @@
+cd $( dirname "$0" )
+
 pyuic4 MainWindow.ui > Ui_MainWindow.py
 
 pyuic4 ProjectList.ui > Ui_ProjectList.py
 pyuic4 ProjectArea.ui > Ui_ProjectArea.py
 
 pyuic4 TaskAreaBlank.ui > Ui_TaskAreaBlank.py
+
+cd -
