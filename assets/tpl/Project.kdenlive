@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mlt title="Anonymous Submission" root="/home/jason/Documents">
+ <profile width="1440" display_aspect_den="9" colorspace="709" frame_rate_den="1" description="HDV 1440x1080p 25 fps" height="1080" display_aspect_num="16" frame_rate_num="25" progressive="1" sample_aspect_num="4" sample_aspect_den="3"/>
+ <producer in="0" out="308981" id="black">
+  <property name="mlt_type">producer</property>
+  <property name="aspect_ratio">0</property>
+  <property name="length">308982</property>
+  <property name="eof">pause</property>
+  <property name="resource">black</property>
+  <property name="mlt_service">colour</property>
+ </producer>
+ <playlist id="black_track">
+  <entry in="0" out="302580" producer="black"/>
+ </playlist>
+ <producer in="0" out="27516" id="1">
+  <property name="mlt_type">producer</property>
+  <property name="aspect_ratio">0.000000</property>
+  <property name="length">27517</property>
+  <property name="eof">pause</property>
+  <property name="resource">0x000000ff</property>
+  <property name="mlt_service">colour</property>
+ </producer>
+ <playlist id="playlist0">
+  <entry in="0" out="99" producer="1"/>
+  <blank length="274965"/>
+  <entry in="0" out="27515" producer="1"/>
+ </playlist>
+ <playlist id="playlist1">
+  <entry in="0" out="49" producer="1"/>
+  <blank length="275015"/>
+  <entry in="0" out="27515" producer="1"/>
+ </playlist>
+ <playlist id="playlist2">
+  <entry in="0" out="49" producer="1"/>
+  <blank length="275015"/>
+  <entry in="0" out="27515" producer="1"/>
+ </playlist>
+ <playlist id="playlist3">
+  <entry in="0" out="49" producer="1"/>
+  <blank length="275015"/>
+  <entry in="0" out="27515" producer="1"/>
+ </playlist>
+ <playlist id="playlist4">
+  <entry in="0" out="49" producer="1"/>
+  <blank length="275015"/>
+  <entry in="0" out="27515" producer="1"/>
+ </playlist>
+ <playlist id="playlist5">
+  <entry in="0" out="49" producer="1"/>
+  <blank length="275015"/>
+  <entry in="0" out="27515" producer="1"/>
+ </playlist>
+ <tractor title="Anonymous Submission" global_feed="1" in="0" out="302580" id="maintractor">
+  <track producer="black_track"/>
+  <track producer="playlist0"/>
+  <track producer="playlist1"/>
+  <track producer="playlist2"/>
+  <track producer="playlist3"/>
+  <track producer="playlist4"/>
+  <track producer="playlist5"/>
+  <transition in="0" out="0" id="transition0">
+   <property name="a_track">1</property>
+   <property name="b_track">2</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition in="0" out="0" id="transition1">
+   <property name="a_track">1</property>
+   <property name="b_track">3</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition in="0" out="0" id="transition2">
+   <property name="a_track">1</property>
+   <property name="b_track">4</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="internal_added">237</property>
+   <property name="combine">1</property>
+  </transition>
+  <transition in="0" out="0" id="transition3">
+   <property name="a_track">1</property>
+   <property name="b_track">5</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="internal_added">237</property>
+   <property name="combine">1</property>
+  </transition>
+  <transition in="0" out="0" id="transition4">
+   <property name="a_track">1</property>
+   <property name="b_track">6</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="internal_added">237</property>
+   <property name="combine">1</property>
+  </transition>
+ </tractor>
+ <kdenlivedoc profile="hdv_1080_25p" kdenliveversion="0.7.8" version="0.85" projectfolder="/home/jason/kdenlive">
+  <documentproperties zonein="0" zoneout="100" zoom="5" verticalzoom="1" position="139"/>
+  <profileinfo width="1440" display_aspect_den="9" frame_rate_den="1" description="HDV 1440x1080p 25 fps" height="1080" frame_rate_num="25" display_aspect_num="16" progressive="1" sample_aspect_num="4" sample_aspect_den="3"/>
+  <tracksinfo>
+   <trackinfo blind="0" mute="0" locked="0" trackname="Default"/>
+   <trackinfo blind="0" mute="0" locked="0" trackname="Custom"/>
+   <trackinfo blind="0" mute="0" locked="0" trackname="Projector"/>
+   <trackinfo blind="0" mute="0" locked="0" trackname="Whiteboard"/>
+   <trackinfo blind="0" mute="0" locked="0" trackname="Sitting"/>
+   <trackinfo blind="0" mute="0" locked="0" trackname="Break"/>
+  </tracksinfo>
+  <kdenlive_producer audio_max="0" channels="0" duration="50" default_audio="0" video_max="0" frame_size="1440x1080" frequency="0" in="0" aspect_ratio="0.000000" mlt_service="colour" out="49" type="4" colour="0x000000ff" id="1" name="Black" default_video="0"/>
+  <markers/>
+  <groups/>
+ </kdenlivedoc>
+</mlt>
