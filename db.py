@@ -57,6 +57,17 @@ class Meta_attribute(base):
 		self.key = key
 		self.value = value
 
+class Slide(base):
+	__tablename__ = 'slides'
+
+	id = Column('slide_id', Integer, primary_key = True)
+	order = Column('slide_order', Integer)
+	video = Column('slide_video', Integer, ForeignKey('videos.video_id'))
+	#slide content
+	title = Column('slide_title', String(255))
+	time = Column('slide_time', Integer)
+	text = Column(Text)
+
 # Reusable Functions
 
 # Starts up a database session
@@ -73,9 +84,7 @@ def Init_project(foldername, unit_coordinator, unit_name):
 	session = start_session(foldername)
 
 	# Apply defaults
-	tasks = defaults.Task_defaults
-
-	for t in tasks:
+	for t in defaults.Task_defaults:
 		session.add(Task(t['name'], t['description']))
 
 	# Apply initial meta attributes
