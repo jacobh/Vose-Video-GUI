@@ -677,7 +677,7 @@
      style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:80.00000119%;writing-mode:lr-tb;text-anchor:end;fill:#ffffff;fill-opacity:1;font-family:Corbel;-inkscape-font-specification:Corbel Bold"
      y="466.58719"
      x="317.06784"
-     sodipodi:role="line">$unitTitle</tspan></text>
+     sodipodi:role="line">{{unitTitle}}</tspan></text>
 
 
 
@@ -691,7 +691,7 @@
      id="tspan3041"
      x="316.60211"
      y="422.66705"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;text-anchor:end;fill:#f26437;fill-opacity:1;font-family:Corbel;-inkscape-font-specification:Corbel Bold">$unitCode</tspan></text>
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;text-anchor:end;fill:#f26437;fill-opacity:1;font-family:Corbel;-inkscape-font-specification:Corbel Bold">{{unitCode}}</tspan></text>
 
 
 
@@ -706,7 +706,7 @@
      x="317.11951"
      y="451.57971"
      style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;text-anchor:end;fill:#ffffff;fill-opacity:1;font-family:Corbel;-inkscape-font-specification:Corbel Bold"
-     id="tspan3012">$lecturerName</tspan></text>
+     id="tspan3012">{{lecturerName}}</tspan></text>
 
 
 
@@ -720,7 +720,7 @@
      id="tspan3083"
      x="316.70029"
      y="436.57214"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;text-anchor:end;fill:#ffffff;fill-opacity:1;font-family:Corbel;-inkscape-font-specification:Corbel Bold">$title</tspan></text>
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;text-anchor:end;fill:#ffffff;fill-opacity:1;font-family:Corbel;-inkscape-font-specification:Corbel Bold">{{videoTitle}}</tspan></text>
 
 
 
@@ -763,7 +763,7 @@
      sodipodi:role="line"
      x="167.3634"
      y="591.71814"
-     style="font-size:6.32677603px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#8f8f8f;fill-opacity:1;font-family:Corbel;-inkscape-font-specification:Corbel Bold">© Vose Seminary 2011</tspan></text>
+     style="font-size:6.32677603px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#8f8f8f;fill-opacity:1;font-family:Corbel;-inkscape-font-specification:Corbel Bold">&copy; Vose Seminary 2011</tspan></text>
 
 
 

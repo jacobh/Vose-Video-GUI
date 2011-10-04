@@ -266,9 +266,9 @@
            style="font-size:44.37965775px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:80.00000119%;writing-mode:lr-tb;text-anchor:start;fill:#f26437;fill-opacity:1;font-family:Corbel;-inkscape-font-specification:Corbel Bold"
            y="628.6485"
            x="337.91287"
-           sodipodi:role="line">$title <tspan
+           sodipodi:role="line">{{title}} <tspan
    id="tspan2920"
-   style="font-size:32px;fill:#ffffff">[$time min]</tspan></tspan></text>
+   style="font-size:32px;fill:#ffffff">{{time}} mins</tspan></tspan></text>
       <flowRoot
          transform="translate(-5.9891234,411.53391)"
          style="font-size:40px;font-style:normal;font-weight:normal;text-align:end;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
@@ -282,6 +282,6 @@
              width="654.52563"
              id="rect2908" /></flowRegion><flowPara
            id="flowPara2914"
-           style="font-size:28px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffffff;font-family:Corbel;-inkscape-font-specification:Corbel Bold">$text</flowPara></flowRoot>    </g>
+           style="font-size:28px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffffff;font-family:Corbel;-inkscape-font-specification:Corbel Bold">{{text}}</flowPara></flowRoot>    </g>
   </g>
 </svg>
