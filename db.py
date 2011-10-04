@@ -77,7 +77,7 @@ def start_session(foldername):
 	return Session()
 
 # Initialises project and creates empty sqlite database with defaults applied
-def Init_project(foldername, unit_coordinator, unit_name):
+def Init_project(foldername, unit_coordinator, unit_name, unit_code):
 	engine = create_engine('sqlite:///'+foldername+'/project.sqlite')
 	base.metadata.create_all(engine)
 
@@ -90,14 +90,15 @@ def Init_project(foldername, unit_coordinator, unit_name):
 	# Apply initial meta attributes
 	session.add_all([
 		Meta_attribute('unit_coordinator', unit_coordinator),
-		Meta_attribute('unit_name', unit_name)
+		Meta_attribute('unit_name', unit_name),
+		Meta_attribute('unit_code', unit_code),
 		])
 
 	# Commit all changes to db
 	session.commit()
 	
 # Initialises video and creates incomplete tasks
-def Init_video(foldername, video_name, lecturer_name):
+def Init_video(foldername, lecturer_name, video_name):
 	session = start_session(foldername)
 
 	# Creates video and commits to db

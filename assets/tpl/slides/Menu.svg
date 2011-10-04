@@ -238,7 +238,7 @@
          x="956.81708"
          y="643.18121"
          style="font-size:44.37965775px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:80.00000119%;writing-mode:lr-tb;text-anchor:end;fill:#ffffff;fill-opacity:1;font-family:Corbel;-inkscape-font-specification:Corbel Bold"
-         id="tspan2867">$unitTitle</tspan></text>
+         id="tspan2867">{{unitTitle}}</tspan></text>
     <text
        id="text3039"
        y="605.18494"
@@ -249,7 +249,7 @@
          y="605.18494"
          x="955.05975"
          id="tspan3041"
-         sodipodi:role="line">$unitCode</tspan></text>
+         sodipodi:role="line">{{unitCode}}</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:54.37278748px;font-style:normal;font-weight:normal;text-align:end;line-height:89.99999762%;text-anchor:end;fill:#f26437;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
@@ -261,7 +261,7 @@
          x="955.99115"
          y="690.41473"
          style="font-size:54.37278748px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:89.99999762%;writing-mode:lr-tb;text-anchor:end;fill:#ffffff;fill-opacity:1;font-family:Corbel;-inkscape-font-specification:Corbel Bold"
-         id="tspan3056">$lecturerName</tspan></text>
+         id="tspan3056">{{lecturerName}}</tspan></text>
     <image
        sodipodi:absref="/home/jason/workspace/Vose-Video-GUI/assets/tpl/LecturerImage.png"
        xlink:href="LecturerImage.png"
@@ -296,7 +296,7 @@
          style="font-size:54.37278748px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:89.99999762%;writing-mode:lr-tb;text-anchor:end;fill:#f26437;fill-opacity:1;font-family:Corbel;-inkscape-font-specification:Corbel Bold"
          y="737.35022"
          x="955.99115"
-         sodipodi:role="line">$title</tspan></text>
+         sodipodi:role="line">{{videoTitle}}</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:39.99999619px;font-style:normal;font-weight:normal;text-align:end;text-anchor:end;fill:#123c5d;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
@@ -312,21 +312,21 @@
          sodipodi:role="line"
          x="264.69907"
          y="870.56006"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;text-anchor:end;fill:#123c5d;fill-opacity:1;font-family:Corbel;-inkscape-font-specification:Corbel Bold">$linkOne</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;text-anchor:end;fill:#123c5d;fill-opacity:1;font-family:Corbel;-inkscape-font-specification:Corbel Bold">{{link_one}}</tspan><tspan
          sodipodi:role="line"
          x="264.69907"
          y="920.56006"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;text-anchor:end;fill:#123c5d;fill-opacity:1;font-family:Corbel;-inkscape-font-specification:Corbel Bold"
-         id="tspan3050">$linkTwo</tspan><tspan
+         id="tspan3050">{{link_two}}</tspan><tspan
          sodipodi:role="line"
          x="264.69907"
          y="970.56006"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;text-anchor:end;fill:#123c5d;fill-opacity:1;font-family:Corbel;-inkscape-font-specification:Corbel Bold"
-         id="tspan3046">$linkThree</tspan><tspan
+         id="tspan3046">{{link_three}}</tspan><tspan
          sodipodi:role="line"
          x="264.69907"
          y="1020.5601"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;text-anchor:end;fill:#123c5d;fill-opacity:1;font-family:Corbel;-inkscape-font-specification:Corbel Bold"
-         id="tspan3048">$linkFour</tspan></text>
+         id="tspan3048">{{link_four]}}</tspan></text>
   </g>
 </svg>
