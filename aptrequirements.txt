@@ -2,4 +2,4 @@ python
 pyqt4
 kdenlive
 ffmpeg
-
+x264
