@@ -14,9 +14,12 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
    <layout class="QVBoxLayout" name="verticalLayout_2">
     <item>
-     <widget class="QWidget" name="projectAreaFrame" native="true"/>
+     <layout class="QVBoxLayout" name="projectAreaLayout"/>
     </item>
    </layout>
   </widget>

@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'MainWindow.ui'
 #
-# Created: Mon Oct  3 14:49:40 2011
+# Created: Thu Oct  6 10:07:34 2011
 #      by: PyQt4 UI code generator 4.8.3
 #
 # WARNING! All changes made in this file will be lost!
@@ -19,12 +19,13 @@ class Ui_MainWindow(object):
         MainWindow.setObjectName(_fromUtf8("MainWindow"))
         MainWindow.resize(905, 600)
         self.centralwidget = QtGui.QWidget(MainWindow)
+        self.centralwidget.setEnabled(True)
         self.centralwidget.setObjectName(_fromUtf8("centralwidget"))
         self.verticalLayout_2 = QtGui.QVBoxLayout(self.centralwidget)
         self.verticalLayout_2.setObjectName(_fromUtf8("verticalLayout_2"))
-        self.projectAreaFrame = QtGui.QWidget(self.centralwidget)
-        self.projectAreaFrame.setObjectName(_fromUtf8("projectAreaFrame"))
-        self.verticalLayout_2.addWidget(self.projectAreaFrame)
+        self.projectAreaLayout = QtGui.QVBoxLayout()
+        self.projectAreaLayout.setObjectName(_fromUtf8("projectAreaLayout"))
+        self.verticalLayout_2.addLayout(self.projectAreaLayout)
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtGui.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 905, 21))
