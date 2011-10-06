@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mlt title="Anonymous Submission" root="/home/jason/Documents">
+ <profile width="1440" display_aspect_den="9" colorspace="709" frame_rate_den="1" description="HDV 1440x1080p 25 fps" height="1080" display_aspect_num="16" frame_rate_num="25" progressive="1" sample_aspect_num="4" sample_aspect_den="3"/>
+ <producer in="0" out="308981" id="black">
+  <property name="mlt_type">producer</property>
+  <property name="aspect_ratio">0</property>
+  <property name="length">308982</property>
+  <property name="eof">pause</property>
+  <property name="resource">black</property>
+  <property name="mlt_service">colour</property>
+ </producer>
+ <playlist id="black_track">
+  <entry in="0" out="302580" producer="black"/>
+ </playlist>
+ <producer in="0" out="27516" id="1">
+  <property name="mlt_type">producer</property>
+  <property name="aspect_ratio">0.000000</property>
+  <property name="length">27517</property>
+  <property name="eof">pause</property>
+  <property name="resource">0x000000ff</property>
+  <property name="mlt_service">colour</property>
+ </producer>
+ <producer in="0" out="227" id="2_0">
+  <property name="mlt_type">producer</property>
+  <property name="aspect_ratio">1.333333</property>
+  <property name="length">228</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/jason/workspace/Vose-Video-GUI/assets/sampledata/transcodes/file.MTS.MP4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">24.780702</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1.333333</property>
+  <property name="meta.media.0.codec.frame_rate">100.000000</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1.333333</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">2566724</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">s16</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.name">ac3</property>
+  <property name="meta.media.1.codec.long_name">ATSC A/52A (AC-3)</property>
+  <property name="meta.media.1.codec.bit_rate">256000</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">4</property>
+  <property name="meta.media.sample_aspect_den">3</property>
+  <property name="meta.attr.title.markup"/>
+  <property name="meta.attr.author.markup"/>
+  <property name="meta.attr.copyright.markup"/>
+  <property name="meta.attr.comment.markup"/>
+  <property name="meta.attr.album.markup"/>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mlt_service">avformat</property>
+  <property name="meta.media.frame_rate_num">25</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="source_fps">24.780702</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.width">1440</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <playlist id="playlist0">
+  <entry in="0" out="99" producer="1"/>
+  <entry in="0" out="227" producer="2_0"/>
+  <entry in="0" out="112" producer="2_0"/>
+  <blank length="58"/>
+  <entry in="171" out="227" producer="2_0"/>
+  <blank length="274509"/>
+  <entry in="0" out="27515" producer="1"/>
+ </playlist>
+ <playlist id="playlist1">
+  <entry in="0" out="49" producer="1"/>
+  <blank length="275015"/>
+  <entry in="0" out="27515" producer="1"/>
+ </playlist>
+ <playlist id="playlist2">
+  <entry in="0" out="49" producer="1"/>
+  <blank length="275015"/>
+  <entry in="0" out="27515" producer="1"/>
+ </playlist>
+ <playlist id="playlist3">
+  <entry in="0" out="49" producer="1"/>
+  <blank length="128"/>
+  <entry in="0" out="227" producer="2_0"/>
+  <blank length="274659"/>
+  <entry in="0" out="27515" producer="1"/>
+ </playlist>
+ <playlist id="playlist4">
+  <entry in="0" out="49" producer="1"/>
+  <blank length="275015"/>
+  <entry in="0" out="27515" producer="1"/>
+ </playlist>
+ <playlist id="playlist5">
+  <entry in="0" out="49" producer="1"/>
+  <blank length="391"/>
+  <entry in="113" out="170" producer="2_0"/>
+  <blank length="274566"/>
+  <entry in="0" out="27515" producer="1"/>
+ </playlist>
+ <tractor title="Anonymous Submission" global_feed="1" in="0" out="302580" id="maintractor">
+  <track producer="black_track"/>
+  <track producer="playlist0"/>
+  <track producer="playlist1"/>
+  <track producer="playlist2"/>
+  <track producer="playlist3"/>
+  <track producer="playlist4"/>
+  <track producer="playlist5"/>
+  <transition in="0" out="0" id="transition0">
+   <property name="a_track">1</property>
+   <property name="b_track">2</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition in="0" out="0" id="transition1">
+   <property name="a_track">1</property>
+   <property name="b_track">3</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition in="0" out="0" id="transition2">
+   <property name="a_track">1</property>
+   <property name="b_track">4</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="internal_added">237</property>
+   <property name="combine">1</property>
+  </transition>
+  <transition in="0" out="0" id="transition3">
+   <property name="a_track">1</property>
+   <property name="b_track">5</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="internal_added">237</property>
+   <property name="combine">1</property>
+  </transition>
+  <transition in="0" out="0" id="transition4">
+   <property name="a_track">1</property>
+   <property name="b_track">6</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="internal_added">237</property>
+   <property name="combine">1</property>
+  </transition>
+ </tractor>
+ <kdenlivedoc profile="hdv_1080_25p" kdenliveversion="0.7.8" version="0.85" projectfolder="/home/jason/kdenlive">
+  <documentproperties zonein="0" zoneout="100" zoom="5" verticalzoom="1" position="499"/>
+  <profileinfo width="1440" display_aspect_den="9" frame_rate_den="1" description="HDV 1440x1080p 25 fps" height="1080" frame_rate_num="25" display_aspect_num="16" progressive="1" sample_aspect_num="4" sample_aspect_den="3"/>
+  <tracksinfo>
+   <trackinfo blind="0" mute="0" locked="0" trackname="Default"/>
+   <trackinfo blind="0" mute="0" locked="0" trackname="Custom"/>
+   <trackinfo blind="0" mute="0" locked="0" trackname="Projector"/>
+   <trackinfo blind="0" mute="0" locked="0" trackname="Whiteboard"/>
+   <trackinfo blind="0" mute="0" locked="0" trackname="Sitting"/>
+   <trackinfo blind="0" mute="0" locked="0" trackname="Break"/>
+  </tracksinfo>
+  <kdenlive_producer audio_max="0" channels="0" duration="50" default_audio="0" video_max="0" frame_size="1440x1080" frequency="0" in="0" aspect_ratio="0.000000" mlt_service="colour" out="49" type="4" colour="0x000000ff" id="1" name="Black" default_video="0"/>
+  <kdenlive_producer audio_max="1" id="2" default_video="0" fps="24.780702" name="file.MTS.MP4" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" resource="/home/jason/workspace/Vose-Video-GUI/assets/sampledata/transcodes/file.MTS.MP4" default_audio="1" audiocodec="ATSC A/52A (AC-3)" duration="228" file_hash="ddd081e1b4346172793090539c473b5f" aspect_ratio="1.333333" channels="2" frequency="48000" video_max="0" type="3" frame_size="1440x1080" file_size="3222125"/>
+  <markers/>
+  <groups/>
+ </kdenlivedoc>
+</mlt>
