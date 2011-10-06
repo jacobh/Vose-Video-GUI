@@ -10,10 +10,6 @@ class MainWindow(QtGui.QMainWindow):
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
         
-        taskArea = Ui_TaskAreaBlank()
-        dock = self.ui.taskAreaDock
-        layout = self.ui.verticalLayout
-        taskArea.setupUi(self)
         #layout.addWidget(taskArea)
         
         #dockWidgetContents = QtGui.QWidget()
