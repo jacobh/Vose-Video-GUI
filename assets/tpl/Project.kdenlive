@@ -10,7 +10,7 @@
   <property name="mlt_service">colour</property>
  </producer>
  <playlist id="black_track">
-  <entry in="0" out="302580" producer="black"/>
+  <entry in="0" out="99" producer="black"/>
  </playlist>
  <producer in="0" out="27516" id="1">
   <property name="mlt_type">producer</property>
@@ -22,35 +22,23 @@
  </producer>
  <playlist id="playlist0">
   <entry in="0" out="99" producer="1"/>
-  <blank length="274965"/>
-  <entry in="0" out="27515" producer="1"/>
  </playlist>
  <playlist id="playlist1">
   <entry in="0" out="49" producer="1"/>
-  <blank length="275015"/>
-  <entry in="0" out="27515" producer="1"/>
  </playlist>
  <playlist id="playlist2">
   <entry in="0" out="49" producer="1"/>
-  <blank length="275015"/>
-  <entry in="0" out="27515" producer="1"/>
  </playlist>
  <playlist id="playlist3">
   <entry in="0" out="49" producer="1"/>
-  <blank length="275015"/>
-  <entry in="0" out="27515" producer="1"/>
  </playlist>
  <playlist id="playlist4">
   <entry in="0" out="49" producer="1"/>
-  <blank length="275015"/>
-  <entry in="0" out="27515" producer="1"/>
  </playlist>
  <playlist id="playlist5">
   <entry in="0" out="49" producer="1"/>
-  <blank length="275015"/>
-  <entry in="0" out="27515" producer="1"/>
  </playlist>
- <tractor title="Anonymous Submission" global_feed="1" in="0" out="302580" id="maintractor">
+ <tractor title="Anonymous Submission" global_feed="1" in="0" out="99" id="maintractor">
   <track producer="black_track"/>
   <track producer="playlist0"/>
   <track producer="playlist1"/>
@@ -105,7 +93,7 @@
   </transition>
  </tractor>
  <kdenlivedoc profile="hdv_1080_25p" kdenliveversion="0.7.8" version="0.85" projectfolder="/home/jason/kdenlive">
-  <documentproperties zonein="0" zoneout="100" zoom="5" verticalzoom="1" position="139"/>
+  <documentproperties zonein="0" zoneout="100" zoom="13" verticalzoom="1" position="139"/>
   <profileinfo width="1440" display_aspect_den="9" frame_rate_den="1" description="HDV 1440x1080p 25 fps" height="1080" frame_rate_num="25" display_aspect_num="16" progressive="1" sample_aspect_num="4" sample_aspect_den="3"/>
   <tracksinfo>
    <trackinfo blind="0" mute="0" locked="0" trackname="Default"/>
