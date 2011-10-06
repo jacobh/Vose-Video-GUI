@@ -157,4 +157,4 @@ class KdenliveProject():
         #        duration = <blank>.length
         #        currentFrame = currentFrame + duration
         #        endPoint = currentFrame
-        #        print (" Export Part" + $currentSegment + ".vob from " + startPoint + " to " + endPoint
+        #        print (" Export Part" + $currentSegment + ".vob from " + startPoint + " to " + endPoint-
